@@ -1,0 +1,22 @@
+{
+  "project": {
+    "name": "your project name"
+  },
+  "build": {
+    "js": {
+      "src": "js src path",
+      "local": "js dev build dist",
+      "build": "js prd build dist"
+    },
+    "css": {
+      "src": "css src path",
+      "local": "css dev build dist",
+      "build": "css prd build dist"
+    },
+    "aliasPaths": "path alias to help reslove files",
+    "dllModules": "modules to be bundled into dll",
+    "globalModules": "global modules",
+    "babelrc": "project specific babelrc",
+    "webpackConf": "project specific webpack config"
+  }
+}

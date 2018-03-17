@@ -1,5 +1,5 @@
 {
-  "name": "generator-kaola-superman",
+  "name": "generator-superkaola",
   "version": "0.0.1",
   "description": "kaola front-end project config generator",
   "files": [
@@ -7,11 +7,11 @@
   ],
   "keywords": [
     "yeoman-generator",
-    "kaola-superman"
+    "superkaola"
   ],
   "repository": {
     "type": "git",
-    "url": "git@github.com:everywill/generator-kaola-superman.git"
+    "url": "git@github.com:everywill/generator-superkaola.git"
   },
   "author": "everywill",
   "dependencies": {
