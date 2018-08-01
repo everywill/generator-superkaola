@@ -4,7 +4,7 @@
   },
   "build": {
     "js": {
-      "src": "js src path",
+      "src": "js src path, eg: src",
       "local": "js dev build dist",
       "build": "js prd build dist"
     },
@@ -13,10 +13,14 @@
       "local": "css dev build dist",
       "build": "css prd build dist"
     },
-    "aliasPaths": "path alias to help reslove files",
-    "dllModules": "modules to be bundled into dll",
-    "globalModules": "global modules",
-    "babelrc": "project specific babelrc",
-    "webpackConf": "project specific webpack config"
+    "publicPath": "eg: /resources/",
+    "resolveAlias": "",
+    "htmlPath": "",
+    "dllModules": "path to the dll modules entry file",
+    "extra": {
+      "webpackConfig": "project specific webpack config name",
+      "babelrc": "project specific babelrc",
+      "statsDir": ""
+    },
   }
 }

@@ -2,6 +2,9 @@
   "name": "generator-superkaola",
   "version": "0.0.1",
   "description": "kaola front-end project config generator",
+  "scripts": {
+    "postversion": "git push && git push --tags"
+  },
   "files": [
     "generators"
   ],
