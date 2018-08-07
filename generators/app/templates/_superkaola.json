@@ -1,26 +1,31 @@
 {
-  "project": {
-    "name": "your project name"
-  },
-  "build": {
-    "js": {
-      "src": "js src path, eg: src",
-      "local": "js dev build dist",
-      "build": "js prd build dist"
+    "project": {
+        "name": "your project name"
     },
-    "css": {
-      "src": "css src path",
-      "local": "css dev build dist",
-      "build": "css prd build dist"
-    },
-    "publicPath": "eg: /resources/",
-    "resolveAlias": "",
-    "htmlPath": "",
-    "dllModules": "path to the dll modules entry file",
-    "extra": {
-      "webpackConfig": "project specific webpack config name",
-      "babelrc": "project specific babelrc",
-      "statsDir": ""
-    },
-  }
+    "build": {
+        "js": {
+            "src": "path for superkaola to scan entry js, relative to current path",
+            "local": "dev build output path, should be assigned if use dll",
+            "build": "prd build output path"
+        },
+        "css": {
+            "src": "path for superkaola to scan entry css",
+            "local": "default to be same with js",
+            "build": "default to be same with js"
+        },
+        "publicPath": "",
+        "resolveAlias": "",
+        "html": {
+            "output": "",
+            "template": ""
+        },
+        "dllModules": "path to the dll modules entry file",
+        "extra": {
+            "webpackConfig": "path to project specific webpack config",
+            "babelrc": "path to project specific babelrc",
+            "postcssConfig": "path to project specific postcss config",
+            "statsDir": "directory to store stats.json, should be assigned if analying bundle",
+            "proxyTable": "path to proxy map file"
+        }
+    }
 }
