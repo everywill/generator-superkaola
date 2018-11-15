@@ -4,7 +4,10 @@
     },
     "build": {
         "js": {
-            "src": "path for superkaola to scan entry js, relative to current path",
+            "src": {
+                "client": "path for superkaola to scan client-entry js, relative to current path",
+                "server": "path for superkaola to scan server-entry js, relative to current path"
+            },
             "local": "dev build output path, should be assigned if use dll",
             "build": "prd build output path"
         },
